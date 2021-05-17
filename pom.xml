@@ -6,9 +6,9 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.4.5</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/> <!-- lookup parent from net.berk2s.security.s4.repository -->
     </parent>
-    <groupId>net.berk2s.security</groupId>
+    <groupId>net.berk2s.net.berk2s.security.s4.security</groupId>
     <artifactId>study</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>study</name>
@@ -23,11 +23,16 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
+            <artifactId>spring-boot-starter-net.berk2s.security.s4.security</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
 
         <dependency>
@@ -49,8 +54,8 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-test</artifactId>
+            <groupId>org.springframework.net.berk2s.security.s4.security</groupId>
+            <artifactId>spring-net.berk2s.security.s4.security-test</artifactId>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -68,6 +73,7 @@
         <module>s0</module>
         <module>s2</module>
         <module>s3</module>
+        <module>s4</module>
     </modules>
 
 </project>
