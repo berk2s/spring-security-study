@@ -71,6 +71,7 @@
         <module>s3</module>
         <module>s4</module>
         <module>s6</module>
+        <module>s7</module>
     </modules>
 
 </project>
