@@ -11,8 +11,8 @@
     <groupId>net.berk2s.security</groupId>
     <artifactId>study</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>demo</name>
-    <description>Demo project for Spring Boot</description>
+    <name>study</name>
+    <description>Study for Spring Security</description>
 
     <properties>
         <java.version>11</java.version>
@@ -65,7 +65,8 @@
     </build>
 
     <modules>
-        <module></module>
+        <module>s0</module>
+        <module>s2</module>
     </modules>
 
 </project>

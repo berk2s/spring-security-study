@@ -4,7 +4,7 @@
 /target/
 /target/*
 **/target/*
-
+.idea
 # Compiled class file
 *.class
 
