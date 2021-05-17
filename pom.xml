@@ -23,7 +23,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-net.berk2s.security.s4.security</artifactId>
+            <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -53,11 +53,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.net.berk2s.security.s4.security</groupId>
-            <artifactId>spring-net.berk2s.security.s4.security-test</artifactId>
-            <scope>test</scope>
-        </dependency>
+
     </dependencies>
 
     <build>
@@ -74,6 +70,7 @@
         <module>s2</module>
         <module>s3</module>
         <module>s4</module>
+        <module>s6</module>
     </modules>
 
 </project>
